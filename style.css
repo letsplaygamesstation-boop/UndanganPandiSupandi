@@ -1,0 +1,130 @@
+/* --- CSS Styling (style.css) --- */
+
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/* --- Cover Section --- */
+.cover {
+    background-color: #e6f0ed; 
+    padding: 80px 20px;
+}
+
+.cover h1 {
+    font-family: 'Playfair Display', serif; 
+    font-size: 2.5em;
+    color: #556b2f; 
+    margin-bottom: 5px;
+}
+
+.cover p {
+    font-style: italic;
+    color: #777;
+}
+
+.date-highlight {
+    font-size: 1.5em; 
+    font-weight: bold;
+    color: #556b2f;
+    margin-bottom: 25px;
+}
+
+/* --- Foto Mempelai --- */
+.photo-couple {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.mempelai h2, .acara h2, .kado h2 {
+    color: #556b2f;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+.separator {
+    font-size: 2em; 
+    color: #556b2f;
+    margin: 10px 0;
+}
+
+/* --- Amplop Digital (Rekening) --- */
+.rekening {
+    background-color: #f0f8ff; 
+    border: 1px dashed #556b2f;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.rekening h3 {
+    color: #556b2f;
+    margin-top: 0;
+}
+
+.rekening p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+/* --- Tombol Umum --- */
+.btn-copy {
+    background-color: #556b2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Untuk link seperti Lihat Peta */
+    display: inline-block;
+}
+
+.btn-copy:hover {
+    background-color: #6b8e23; /* Warna lebih terang saat disentuh */
+}
+
+/* --- Footer --- */
+.footer {
+    padding: 30px 20px;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 1px solid #eee;
+    border-bottom: none;
+}
+
+/* Membuat kontainer peta agar peta mengisi ruang dengan baik */
+.map-container {
+    margin: 20px -20px 0 -20px; /* Mengisi margin section */
+    overflow: hidden;
+    position: relative;
+    padding-top: 56.25%; /* Rasio aspek (misalnya 16:9) */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important; 
+    height: 100% !important;
+}

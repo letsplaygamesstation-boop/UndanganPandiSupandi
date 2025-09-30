@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan - [Pandi Supandi] & [Sri Mulyati]</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="section cover">
+        <p>Dengan memohon Rahmat dan Ridho Allah SWT,</p>
+        <h1>[Pandi Supandi] & [Sri Mulyati]</h1>
+        <p>Akan melangsungkan pernikahan pada:</p>
+        <p class="date-highlight">Sabtu, 21 Desember 2025</p>
+        <button class="btn-copy" onclick="document.getElementById('detail').scrollIntoView();">Lihat Detail Undangan</button>
+    </div>
+
+        <div class="section mempelai" id="detail">
+        <h2>Mempelai</h2>
+        
+        <img src="couple.jpg" alt="Foto Calon Pengantin" class="photo-couple"> 
+        
+        <p style="font-size: 1.5em; font-weight: bold; margin-bottom: 5px;">[Pandi Supandi]</p>
+        <p style="font-size: 1.5em; font-weight: bold;">&</p>
+        <p style="font-size: 1.5em; font-weight: bold; margin-top: 5px;">[Sri Mulyati]</p>
+    </div>
+
+    <div class="section acara">
+        <h2>Waktu dan Lokasi</h2>
+        
+        <h3>Akad Nikah / Pemberkatan</h3>
+        <p>Pukul: 09.00 - 10.00 WIB</p>
+        <p>Tempat: Selaawi, rt005/rw005, Desa Tuguraja, kec.Cihideung Kab.Tasikmalaya</p>
+        
+        <h3>Resepsi / Walimatul Ursy</h3>
+        <p>Pukul: 11.00 - 13.00 WIB</p>
+        <p>Tempat: Selaawi, rt005/rw005, Desa Tuguraja, Kec.Cihideung Kab.Tasikmalaya</p>
+    </div>
+    
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d710.1592647045187!2d108.20702120713295!3d-7.33437002245902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f573dd743ac35%3A0xe8b437785107676d!2sJl.%20Selaawi%2C%20Kab.%20Tasikmalaya%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1759218890872!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+    <div class="section kado">
+        <h2>Kirim Tanda Kasih (Amplop Digital)</h2>
+        <p>Doa restu adalah kado terindah. Jika ingin memberikan hadiah, silakan melalui transfer bank di bawah ini.</p>
+        
+        <div class="rekening">
+            <h3>Rekening Hadiah Pernikahan</h3>
+            <p>Bank: **DANA**</p>
+            <p>No. Dana: <span id="nomorRekening">0895606084745</span></p> 
+            <p>Atas Nama: **[Pandi Supandi]**</p>
+            <button class="btn-copy" onclick="salinRekening()">Salin Nomor Rekening</button>
+        </div>
+    <div class="section footer">
+        <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir.</p>
+        <p>Hormat kami,<br>Keluarga Besar [Pandi Sopandi] & [Sri Mulyati]</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
